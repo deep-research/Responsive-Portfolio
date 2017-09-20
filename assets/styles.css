@@ -1,0 +1,179 @@
+/*@media screen and (min-width: 981px)*/
+
+/*desktop*/
+@media screen and (max-width: 980px) {
+	.both-columns {
+		width: 748px;
+	}
+
+	#contact {
+		width: 31%;
+	}
+
+	#contact img {
+		width: 29.2%;
+		height: 29.2%;
+	}
+
+	#bio, #form, #gallery {
+		width: 63%;
+	}
+
+	#form #subject {
+		width: 95.5%;
+	}
+
+	.gallery-unit {
+		clear: both;
+		width: 100%;
+	}
+
+	#form #name, #email { width: 95%; }
+
+	#bio img {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+	.both-columns {
+		width: 620px;
+	}
+
+	#bio {
+		display: block;
+		width: 100%;
+	}
+
+	#contact {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	#contact img {
+		width: 10%;
+		height: 10%;
+	}
+
+	#bio img {
+		float: left;
+		width: 50%;
+		width: 50%;
+	}
+
+	#form {
+		width: 100%;
+	}
+
+	#gallery {
+		width: 100%;
+	}
+
+	.gallery-unit {
+		clear: none;
+		float: left;
+		width: 47.75%;
+	}
+}
+
+/*phone*/
+@media screen and (max-width: 640px) {
+	.both-columns {
+		width: 100%;
+	}
+
+	header {
+		margin-bottom: 20px;
+	}
+
+	#bio, #contact {
+		position: static;
+		padding-bottom: 0;
+		margin-bottom: 20px;
+		width: calc(100% - 40px);
+		box-sizing: border-box;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	#contact {
+		margin-bottom: 30px;
+	}
+
+	#title h1 {
+		display:block;
+		font-size: 25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#title a {
+		text-decoration: none;
+	}
+
+	header #title {
+		display: block;
+		width: 100%;
+		text-align: center;
+		position: static;
+	}
+
+	header nav {
+		display: block;
+		width: 100%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	header nav a {
+		vertical-align: middle;
+	}
+
+	#contact img {
+		width: 40px;
+		height: 40px;
+	}
+
+/*	#contact-padding {
+		white-space: nowrap;
+	}*/
+
+	#bio img {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#form {
+		margin-left: 20px;
+		margin-right: 20px;
+		width: calc(100% - 40px);
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+
+	#gallery {
+		margin-left: 20px;
+		margin-right: 20px;
+		width: calc(100% - 40px);
+	}
+
+	.gallery-unit {
+		clear: both;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 285px) {
+	#contact h3 {
+		font-size: 16px;
+	}

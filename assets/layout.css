@@ -1,0 +1,138 @@
+*, html, body, h1 {
+	padding: 0;
+	margin: 0;
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.both-columns {
+	width: 960px;
+	margin: auto;
+}
+
+#bio, #form, #gallery {
+	width: 650px;
+	float: left;
+	padding-bottom: 10px;
+	margin-bottom: 45px;
+}
+
+#form {
+	width: 650px;
+	float: left;
+	padding-bottom: 10px;
+	margin-bottom: 45px;
+}
+
+#contact {
+	width: 270px;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	margin-bottom: 40px;
+}
+
+header #title {
+	display: inline-block;
+	width: calc(50% - 2px);
+	vertical-align: middle;
+}
+
+#title h1 {
+	display: inline-block;
+	padding: 20px;
+}
+
+header nav {
+	display: inline-block;
+	width: calc(50% - 2px);
+	text-align: right;
+	vertical-align: middle;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+#bio img {
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	/*margin-bottom: 20px;*/
+}
+
+#bio article {
+	padding-top: 20px;
+	line-height: 185%;
+}
+
+#contact-padding {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#bio-padding, #form-padding, #gallery-adjust {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;	
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#contact img {
+	width: 30%;
+	height: 30%;
+	padding: 2px;
+	margin-top: 20px;
+}
+
+#contact h3 {
+	padding-bottom: 15px;
+	/*text-align: center;*/
+}
+
+#bio h2, #form h2, #gallery h2 {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+#gallery img {
+	width: 100%;
+}
+
+.gallery-unit {
+	position: relative;
+	width: 282px;
+	float: left;
+	padding-bottom: 25px;
+}
+
+.gallery-column {
+	margin-right: 25px;
+}
